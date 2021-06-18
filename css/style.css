@@ -6,3 +6,38 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+header {
+    border: solid black;
+}
+
+.fondo{
+    border: solid black;
+    height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.information{
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    height: 200px;
+    padding: 0px;
+}
+
+.media {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#twitter, #facebook ,#linkedin{
+    height: 60%;
+}
+
+
